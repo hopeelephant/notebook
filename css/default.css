@@ -10,6 +10,14 @@ h1{
   color: #fff;
 }
 
+.container{
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+
 .footer{
   text-align: center;
   height: 150px;
