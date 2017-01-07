@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  height: 85px;
+  line-height: 85px;
+  background: #f16b99;
+  text-align: center;
+  color: #fff;
+}

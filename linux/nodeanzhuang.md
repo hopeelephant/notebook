@@ -1,5 +1,6 @@
 ---
 title: node.js 安装
+layout: default
 ---
 
 
