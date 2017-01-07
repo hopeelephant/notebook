@@ -19,13 +19,13 @@ h1{
 .container p{
   line-height: 45px;
 }
-container pre{
+.container pre{
   padding-top: 20px;
   padding-bottom: 20px;
   background: #fac8d9;
 
 }
-container code{
+.container code{
   padding-top: 20px;
   padding-bottom: 20px;
   background: #fac8d9;
