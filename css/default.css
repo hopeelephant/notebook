@@ -25,6 +25,12 @@ container pre{
   background: #fac8d9;
 
 }
+container code{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fac8d9;
+  width: 960px;
+}
 .footer{
   text-align: center;
   height: 150px;
