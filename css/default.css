@@ -9,3 +9,16 @@ h1{
   text-align: center;
   color: #fff;
 }
+
+.footer{
+  text-align: center;
+  height: 150px;
+  background: #000;
+  color: #fff;
+  line-height: 150px;
+
+}
+.footer a{
+  color: #f16b99;
+  font-size: 0.8em;
+}
