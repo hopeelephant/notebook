@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.teal{
+  color: teal;
+}
+body{
+  background: #ccc;
+}
+.header{
+  background: #fff;
+}
+.mulu{
+  background: #f16b99;
+  height: 85px;
+  line-height: 85px;
+  text-align: center;
+  color: #fff;
+}
+.mulu2{
+  margins-bottom: 80px;
+}
+.wang{
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.wang img{
+  width: 300px;
+  float: left;
+}
+.wang .way{
+  width: 400px;
+  float: left;
+  margin-left: 100px;
+}
+.way h3{
+  font-size: 25px;
+  color:#f27649;
+}
+.way p:nth-child(2){
+  color: teal;
+  line-height: 70px;
+  border-bottom: 1px solid #e1e1e0;
+}
+.way p:nth-child(3){
+  padding-top: 25px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.way p:nth-child(4) a{
+  display: block;
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #f27649;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+}
+.main{
+  width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 80px;
+}
+.part{
+  text-align: center;
+  line-height: 60px;
+}
+.index-table{
+  border-collapse: collapse;
+  width: 700px;
+  margin: 0 auto 30px;
+}
+tr{
+    border: 1px solid #ddd;
+    height: 70px;
+    cursor: pointer;
+}
+tr:hover{
+  background: #f16b99;
+  color: #fff;
+}
+tr:hover a{
+  color: #fff;
+}
+.chapter-index{
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 0.8em;
+  width: 100px;
+}
+.chapter-title{
+  padding-left: 30px;
+}
+.part{
+  color: teal;
+}
+td a{
+  color:teal;
+  font-size: 18px;
+}
+.footer{
+  text-align: center;
+  height: 150px;
+  background: #000;
+  color: #fff;
+  line-height: 150px;
+
+}
+.footer a{
+  color: #f16b99;
+  font-size: 0.8em;
+}
