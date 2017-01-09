@@ -24,7 +24,9 @@ h1{
   margin-bottom: 100px;
   font-family: sans-serif;
   background: #fff;
-  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-bottom: 20px;
 }
 .container p{
   line-height: 1.5em;
@@ -35,6 +37,7 @@ h1{
   padding-top: 20px;
   padding-bottom: 20px;
   background: #fac8d9;
+  padding-left: 20px;
 
 }
 .container code{
