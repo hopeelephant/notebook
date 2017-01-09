@@ -81,9 +81,6 @@ Mardown 语法不是浏览器能直接支持的，所以需要先把 Mardown 语
 
 例如，我们在 README.md 中填写
 
->
-[百度](http://baidu.com)
+>[百度](http://baidu.com)
 
-<a href="http://baidu.com">百度</a>
-
->
+><a href="http://baidu.com">百度</a>
