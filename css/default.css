@@ -4,6 +4,7 @@
 }
 body{
   background: #f3f3f3;
+  font-family: "ProximaNova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h2{
   line-height: 85px;
@@ -14,8 +15,11 @@ h2{
 }
 h1{
   text-align: center;
-  color: #e5533c;
+  color: #008080;
   font-size: 25px;
+}
+h3{
+  color: #f16b99；
 }
 .container{
   width: 760px;
