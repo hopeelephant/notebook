@@ -81,25 +81,36 @@ Mardown 语法不是浏览器能直接支持的，所以需要先把 Mardown 语
 
 例如，我们在 README.md 中填写
 
->\[百度](http://baidu.com)  
->`<a href="http://baidu.com">百度</a>`
+```
+[百度](http://baidu.com)  
 
+<a href="http://baidu.com">百度</a>
+```
 
+提交保存之后，页面显示出完全一样的链接效果。
 
+>注意，添加内容的文件名，无所谓，但是后缀一定要 .md 不然无法编译成功
 
+### Mardown 中添加语法高亮
+
+什么是语法高亮？ 如果一段代码没有语法高亮，那么就是所有的字符都显示成一个颜色。但是通常编辑器中有语法高亮，也就是不同语法作用的字符串会显示成不同的颜色。
+
+markdown 中，如果写成下面这样，最终显示的效果就是有语法高亮的：
 
 ```
-<div class="header">
-      <div class="mulu">  
-          <h2>目录</h2>  
-      </div>  
-      <div class="wang">  
-          <img src="images/wang.jpg" alt="">  
-          <div class="way">   
-              <h3>js 走遍天下</h3>
-              <p>hopeelephant</p>
-              <p>《js 走遍天下》是一本把你从一个没有梦想的人变成一个编程高手的书</p>
-              <p><a href="">开始阅读</a></p>
-          </div>
-      </div>
+#```#js
+console.log('hello');
+console.log('hello');
+
+console.log('hello');
+
+console.log('hello');
+#```#
+
+
+#```#css
+body {
+  background: red;
+}
+#```#
 ```
