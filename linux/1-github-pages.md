@@ -85,12 +85,14 @@ Mardown 语法不是浏览器能直接支持的，所以需要先把 Mardown 语
 >`<a href="http://baidu.com">百度</a>`
 
 >`  <div class="header">
-      <div class="mulu">
-          <h2>目录</h2>
-      </div>
-      <div class="wang">
-          <img src="images/wang.jpg" alt="">
-          <div class="way">
+
+  
+      <div class="mulu">  
+          <h2>目录</h2>  
+      </div>  
+      <div class="wang">  
+          <img src="images/wang.jpg" alt="">  
+          <div class="way">   
               <h3>js 走遍天下</h3>
               <p>hopeelephant</p>
               <p>《js 走遍天下》是一本把你从一个没有梦想的人变成一个编程高手的书</p>
