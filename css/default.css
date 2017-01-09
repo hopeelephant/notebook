@@ -30,7 +30,7 @@ h1{
 h3{
   color: #f16b99;
 }
-.highlighter-rouge{
+code.highlighter-rouge{
   padding: 3px;
   border-radius: 3px;
   background: #e2e2e2;
