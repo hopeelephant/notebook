@@ -5,13 +5,16 @@
 body{
   background: #f3f3f3;
 }
-h1{
+h2{
   line-height: 1.2em;
   background: #f16b99;
   text-align: center;
   color: #fff;
 }
-
+h1{
+  text-align: center;
+  color: #f16b99;
+}
 .container{
   width: 760px;
   margin: 0 auto;
