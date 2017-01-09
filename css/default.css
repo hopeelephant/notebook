@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background: #ccc;
+}
 h1{
   height: 85px;
   line-height: 85px;
