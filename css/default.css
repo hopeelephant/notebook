@@ -50,16 +50,16 @@ h3{
 .container pre{
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #fde7ee;
+  background: #fbfbfb;
   padding-left: 20px;
   border-radius: 3px;
   margin-bottom: 30px;
+  border: 1px solid #eaeaea;
 
 }
 blockquote{
   padding:20px 0 20px 20px;
-  background: #fbfbfb;
-  border: 1px solid #eaeaea;
+  background: #fde7ee;
   border-radius: 3px;
 }
 .footer{

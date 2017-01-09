@@ -88,10 +88,8 @@ Mardown 语法不是浏览器能直接支持的，所以需要先把 Mardown 语
 
 
 
-
+```
 <div class="header">
-
-
       <div class="mulu">  
           <h2>目录</h2>  
       </div>  
@@ -103,4 +101,5 @@ Mardown 语法不是浏览器能直接支持的，所以需要先把 Mardown 语
               <p>《js 走遍天下》是一本把你从一个没有梦想的人变成一个编程高手的书</p>
               <p><a href="">开始阅读</a></p>
           </div>
-      </div>`
+      </div>
+```
