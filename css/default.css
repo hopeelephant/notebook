@@ -30,6 +30,11 @@ h1{
 h3{
   color: #f16b99;
 }
+.highlighter-rouge{
+  padding: 3px;
+  border-radius: 3px;
+  background: #e2e2e2;
+}
 .container{
   width: 760px;
   margin: 0 auto;
