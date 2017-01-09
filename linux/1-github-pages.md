@@ -97,20 +97,25 @@ Mardown 语法不是浏览器能直接支持的，所以需要先把 Mardown 语
 
 markdown 中，如果写成下面这样，最终显示的效果就是有语法高亮的：
 
+
+
+
+```` 
+
+```js
+console.log('hello');
+console.log('hello');
+
+console.log('hello');
+
+console.log('hello');  
 ```
-#```#js
-console.log('hello');
-console.log('hello');
-
-console.log('hello');
-
-console.log('hello');
-#```#
 
 
-#```#css
+```css
 body {
-  background: red;
-}
-#```#
+  background: red;  
+}  
 ```
+
+````
