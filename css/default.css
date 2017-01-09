@@ -53,13 +53,8 @@ h3{
   background: #fde7ee;
   padding-left: 20px;
   border-radius: 3px;
+  margin-bottom: 30px;
 
-}
-.container code{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: #fde7ee;
-  width: 960px;
 }
 blockquote{
   padding:20px 0 20px 20px;
