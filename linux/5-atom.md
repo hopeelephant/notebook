@@ -37,7 +37,7 @@ atom .
 
 ### 装包
 
-### 使用 Ctrl-Shift-P 打开命令面板，然后搜索
+使用 Ctrl-Shift-P 打开命令面板，然后搜索
 
 ```
 install packages
