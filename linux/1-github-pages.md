@@ -100,7 +100,7 @@ markdown 中，如果写成下面这样，最终显示的效果就是有语法�
 
 
 
-```` 
+`````
 
 ```js
 console.log('hello');
@@ -118,4 +118,72 @@ body {
 }  
 ```
 
+`````
+
+上面的内容会最终显示为：
+
+```
+console.log('hello');
+console.log('hello');
+
+console.log('hello');
+
+console.log('hello');
+```
+
+```
+body {
+  background: red;
+}
+```
+
+### 如何在 hopeelephant.github.io 仓库中使用 markdown
+
+
+在 github pages 项目中使用 markdown ，基本的思路就是
+
+- 如果我想添加一个 pagename.html 的页面
+- 那我就创建 pagename.md 这个文件
+- 然后里面直接写 markdown 语法就可以了
+- 但是，跟普通的 markdown 文件不同，添加到 github pages 页面中的 .md 文件，必须有头部。
+
+头部格式如下：
+
 ````
+---
+title: 我的这篇文章的标题
+---
+````
+
+### 具体操作步骤
+
+到 happypeter.github.io 的项目仓库中，首先在 index.html 中添加如下内容：
+
+```
+<ul>
+  <li>
+    <a href="1-first.html">第一篇文章</a>
+  </li>
+  <li>
+    <a href="2-second.html">第二篇文章</a>
+  </li>
+</ul>
+```
+
+
+然后，就到 https://github.com/happypeter/happypeter.github.io 仓库首页，找到 Create New File 按钮，创建一个新文件，叫做
+
+```
+1-first.md
+
+```
+
+```
+---
+title: 我的第一篇文章
+---
+
+### 第一篇第一个大标题
+```
+
+上面 #:# 后面留一个空格，头部下方留出一个空行，然后再写 markdown 正文
