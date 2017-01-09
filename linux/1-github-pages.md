@@ -72,7 +72,7 @@ Description (optional) 项目描述（可选项）
 Markdown 跟 HTML 一样，是一种标签语言。但是 Markdown 语法特别简单，适合用来做笔记。
 
 - [Markdown 语法参考](https://coding.net/help/doc/project/markdown.html)
-
+      
 Mardown 语法不是浏览器能直接支持的，所以需要先把 Mardown 语法写成的内容，编译成 HTML ，才能美观的显示出来。
 
 那么 Github 就提供了这个编译环境。到 Github 上我们的项目中，有一个文件叫 README.md 这里 md 就是 markdown 的缩写。
@@ -186,4 +186,12 @@ title: 我的第一篇文章
 ### 第一篇第一个大标题
 ```
 
-上面 #:# 后面留一个空格，头部下方留出一个空行，然后再写 markdown 正文
+上面  `:`  后面留一个空格，头部下方留出一个空行，然后再写 markdown 正文
+
+>注意：头部千万不能敲错，不然网站就不更新了。例如，A.md 文件中 头部敲错了，即使后续再创建一个 B.md 文件，里面添加了头部，网站也不会更新。除非先把 A.md 中的头部修改好。
+
+总结一下，虽然很多 github pages 的知识我们还没有介绍，但是有了上面的这些技巧已经完全可以胜任记笔记的工作了。当然如果想让笔记好看，就添加 CSS 进来。
+
+###更多技巧参考
+
+- [hopeelephant](http://es6.ruanyifeng.com/)
