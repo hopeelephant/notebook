@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background: #ccc;
+  background: #f3f3f3;
 }
 h1{
   height: 85px;
@@ -18,9 +18,12 @@ h1{
   margin: 0 auto;
   margin-bottom: 100px;
   font-family: sans-serif;
+  background: #fff;
 }
 .container p{
-  line-height: 45px;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .container pre{
   padding-top: 20px;
