@@ -8,9 +8,9 @@ body{
   font-weight: 300;
 }
 a{
-  color: 1BBFB1;
+  color: #1BBFB1;
   text-decoration: none;
-  border:1px dotted #1BBFB1;
+  border-bottom:1px dotted #1BBFB1;
 }
 ul{
   margin-left: 50px;
