@@ -19,7 +19,7 @@ header{
   background: #f16b99;
 }
 h2{
-  width: 800px;
+  width: 960px;
   margin: 0 auto;
   line-height: 85px;
   text-align: center;
@@ -74,10 +74,10 @@ blockquote{
   margin-bottom: 30px;
 }
 footer{
-  #000;
+  background: #000;
 }
 .footer{
-  width: 800px;
+  width: 960px;
   margin: 0 auto;
   text-align: center;
   height: 150px;
