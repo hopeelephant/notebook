@@ -29,18 +29,18 @@ body{
 .wang{
   width: 63%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 7.8%;
   overflow: hidden;
   margin-bottom: 70px;
 }
 .wang img{
-  width: 300px;
+  width: 37.5%;
   float: left;
 }
 .wang .way{
-  width: 400px;
+  width: 54.5%;
   float: left;
-  margin-left: 100px;
+  margin-left: 7.8%;
 }
 .way h3{
   font-size: 25px;
@@ -54,7 +54,7 @@ body{
 .way p:nth-child(3){
   padding-top: 25px;
   line-height: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 15%;
 }
 .way p:nth-child(4) a{
   display: block;
