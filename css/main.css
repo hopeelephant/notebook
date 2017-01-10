@@ -12,11 +12,9 @@ body{
   background: #f3f3f3;
 }
 .header{
-  width: 100%;
   background: #fff;
 }
 .mulu{
-  width: 100%;
   background: #f16b99;
   height: 85px;
   line-height: 85px;
@@ -27,20 +25,20 @@ body{
   margins-bottom: 80px;
 }
 .wang{
-  width: 63%;
+  width: 800px;
   margin: 0 auto;
-  margin-top: 7.8%;
+  margin-top: 100px;
   overflow: hidden;
   margin-bottom: 70px;
 }
 .wang img{
-  width: 37.5%;
+  width: 300px;
   float: left;
 }
 .wang .way{
-  width: 54.5%;
+  width: 400px;
   float: left;
-  margin-left: 7.8%;
+  margin-left: 100px;
 }
 .way h3{
   font-size: 25px;
@@ -54,7 +52,7 @@ body{
 .way p:nth-child(3){
   padding-top: 25px;
   line-height: 30px;
-  margin-bottom: 15%;
+  margin-bottom: 60px;
 }
 .way p:nth-child(4) a{
   display: block;
