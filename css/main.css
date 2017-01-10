@@ -14,11 +14,12 @@ body{
 .header{
   background: #fff;
 }
-.header-inner{
+.mulu{
+  background: #f16b99;
+}
+.mulu-inner{
   width: 800px;
   margin: 0 auto;
-}
-.mulu{
   background: #f16b99;
   height: 85px;
   line-height: 85px;
@@ -26,12 +27,18 @@ body{
   color: #fff;
 }
 .mulu2{
-  margin-bottom: 80px;
+
 }
 .wang{
-  margin-top: 100px;
+  background: #fff;
+}
+.wang-inner{
+  width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding-top: 100px;
   overflow: hidden;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 .wang img{
   width: 300px;
@@ -68,12 +75,10 @@ body{
   font-weight: bold;
 }
 .main{
-  margin-top: 80px;
-}
-.main-inner{
   width: 800px;
   margin: 0 auto;
   background: #fff;
+  margin-top: 80px;
 }
 .part{
   text-align: center;
@@ -113,14 +118,17 @@ td a{
   font-size: 18px;
 }
 .footer{
+  text-align: center;
   height: 150px;
   background: #000;
   color: #fff;
   line-height: 150px;
 
 }
-.footer p{
-  text-align: center;
+.footer-inner{
+  width: 800px;
+  margin: 0 auto;
+  background: #000;
 }
 .footer a{
   color: #f16b99;
