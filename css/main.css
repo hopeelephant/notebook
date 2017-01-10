@@ -12,9 +12,11 @@ body{
   background: #f3f3f3;
 }
 .header{
+  width: 100%;
   background: #fff;
 }
 .mulu{
+  width: 100%;
   background: #f16b99;
   height: 85px;
   line-height: 85px;
@@ -25,7 +27,7 @@ body{
   margins-bottom: 80px;
 }
 .wang{
-  width: 800px;
+  width: 63%;
   margin: 0 auto;
   margin-top: 100px;
   overflow: hidden;

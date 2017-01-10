@@ -19,3 +19,4 @@ nvm ls-remote 查看可以选择安装的 node 版本
 nvm install v7.4.0 安装 7.4.0 的 nodejs
 
 ```
+123

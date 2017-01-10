@@ -16,6 +16,7 @@ ul{
   margin-left: 50px;
 }
 h2{
+  width: 100%;
   line-height: 85px;
   text-align: center;
   color: #fff;
@@ -69,6 +70,7 @@ blockquote{
   margin-bottom: 30px;
 }
 .footer{
+  width: 100%;
   text-align: center;
   height: 150px;
   background: #000;
