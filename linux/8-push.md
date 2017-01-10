@@ -87,3 +87,107 @@ Please make sure you have the correct access rights
 
 
 ### 第三步：添加 ssh key
+
+
+现在需要达成开发机和 github.com 的互信。
+
+因为开发过程中，我们需要用本地机器向 github.com 的仓库中 写东西（ git push ），同时我们又不想每次都输入密码，所以我们就用 ssh key 的形式来达成互信，过程如下：
+
+- 在本地机器上生成一对 ssh key ，一个公钥，一个私钥
+- 把公钥添加到 github.com
+
+具体操作如下：
+
+- 首先本地运行 `ssh-keygen` 命令，可以在 ~/.ssh 文件夹下生产 ssh key
+- 到 `~/.ssh/id_rsa.pub` 也就是公钥文件中，拷贝公钥字符串
+- 把字符串粘贴到 github.com -> setting -> ssh keys -> add
+
+
+这样添加 ssh key 的工作就完成了，以后我们执行 git push 这样的命令就不会看到如下错误了：
+
+```
+...permission denied...
+...make sure ... correct access right ...
+```
+
+good
+
+### Github Pages 显示网站
+
+上面的步骤操作完成，就可以在 hopeelephant.github.io 看到网站的首页了。 当然我们这里依然是使用 Github Pages 服务，所以是可以添加 md 文件的， 具体的操作方式参考第一节。
+
+
+下面，我们涉及到如何把网站做的好看一些的问题。这个需要了解 github Pages 底层的机制。底层 Github Pages 采用了 Jekyll 框架。
+
+### Jekyll 框架
+
+要把 Github Pages 的网站做漂亮，必须了解 Jekyll 框架如何运行的。
+
+首先，.md 文件，也就是 markdown 格式的支持，就是 Jekyll 提供给我们的。这个前面已经详细介绍过了。
+
+现在，我们来添加布局文件
+
+- 英文参考文档：[官网](http://jekyllrb.com/)
+
+- 中文参考文档（有可能过期）：[中文网](http://jekyll.com.cn/docs/quickstart/)
+
+### Jekyll: 添加布局文件
+
+首先打开所有的 .md 中的头部改成这样
+
+
+```
+---
+title: First Page
+layout: default
+---
+
+```
+
+然后来创建布局文件 default.html ，这个文件必须存放到 \_layouts 文件夹之内，
+
+\_layouts/default.html 内容如下，可以参考我的其他项目中的写法。例如：
+
+```
+anything anything
+  content
+anything anything
+
+```
+
+注意，上面的 content 外面要套两个大括号。
+
+### git clone 命令
+
+要想把 github 上的一个项目代码下载到本地有两种方式，一种就是普通下载（ download ）。但是，开发者 基本上会选择另外一种方式，就是 clone 。
+
+```
+git clone git@github.com:happypeter/digicity.git
+
+```
+
+lone 的特点就是不仅仅可以得到最新代码，而且可以得到整个改版历史。而普通下载只能得到最新版本。
+
+### git 各个命令的作用
+
+- `git push` 把本地仓库中有，而远端对应仓库中没有的版本推送到远端
+- `git pull` 把远端仓库中有，而本地对应仓库中没有的版本拉到本地
+- `git clone` 把远端仓库，克隆到本地
+
+
+### 学习 Github/Git 的学习目标
+
+- 知道 git 是版本控制工具
+- 要有一个 github 仓库
+- 已经添加 ssh key 互信，也就是可以从本地仓库推送内容（ git push ）到 github 仓库
+- 可以在本地仓库中任意添加，删除，修改文件，并作成版本
+
+这样，github/git 的初级使用我们就有能力完成了。但是，作为成熟开发者，github 上面会发 push request ，本地 git 会开启新分支，都是必备知识。暂时我们先不涉及。
+
+### 承前启后
+
+到现在，程序员三大基本工具，我们就知道了。
+
+- 编辑器 atom
+- 命令行 Linux
+- 版本控制 Git/Github
