@@ -15,7 +15,12 @@ a{
 ul{
   margin-left: 50px;
 }
+header{
+  background: #f16b99;
+}
 h2{
+  width: 800px;
+  margin: 0 auto;
   line-height: 85px;
   text-align: center;
   color: #fff;
@@ -68,7 +73,12 @@ blockquote{
   border-radius: 3px;
   margin-bottom: 30px;
 }
+footer{
+  #000;
+}
 .footer{
+  width: 800px;
+  margin: 0 auto;
   text-align: center;
   height: 150px;
   background: #000;
