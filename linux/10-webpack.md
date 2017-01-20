@@ -35,8 +35,8 @@ npm init -y
 // 安装 webpack
 npm i -D webpack
 // 编写我们的 npm 脚本，使用项目内的 webpack
-"scripts"`:` {
-  "build"`:` "./node_modules/.bin/webpack"
+"scripts": {
+  "build": "./node_modules/.bin/webpack"
 }
 // 增加 webpack 的配置文件 webpack.config.js
 module.exports = {
