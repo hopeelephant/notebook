@@ -67,6 +67,20 @@ Description (optional) 项目描述（可选项）
 注意：新添加的内容，不一定立刻能显示到 hopeelephant.github.io ，可能会有五六分钟的延迟。
 ```
 
+### 克隆项目
+
+在命令行中敲git clone 后面跟上克隆的地址，注意克隆别人的选择`https`,地址在：点开别人的项目，有一个`clone or download`
+
+按钮，点一下就会出现地址，将这个地址复制在`git alone`后面，另外在后面加上自己想定义的文件名，就可以克隆下来了
+
+例如这样
+
+```
+git clone https://github.com/SargonXu/resume.git exo
+```
+
+exo就是自己定的文件名
+
 ### 用 Markdown 来记笔记
 
 Markdown 跟 HTML 一样，是一种标签语言。但是 Markdown 语法特别简单，适合用来做笔记。
@@ -146,6 +160,8 @@ body {
 - 那我就创建 pagename.md 这个文件
 - 然后里面直接写 markdown 语法就可以了
 - 但是，跟普通的 markdown 文件不同，添加到 github pages 页面中的 .md 文件，必须有头部。
+- 另外markdown还可以边写边预览，方法，首先ctrl shift p打开控制面板，接着控制面板中输入mdpt+enter建即可，也可以在侧边栏中的markdown
+  文件中的右键，再点击markdown preview就可以了
 
 头部格式如下：
 
@@ -157,7 +173,7 @@ title: 我的这篇文章的标题
 
 ### 具体操作步骤
 
-到 happypeter.github.io 的项目仓库中，首先在 index.html 中添加如下内容：
+到 hopeelephant.github.io 的项目仓库中，首先在 index.html 中添加如下内容：
 
 ```
 <ul>
