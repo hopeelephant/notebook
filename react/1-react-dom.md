@@ -117,6 +117,6 @@ ReactDOM.render(
 )
 ```
 
-`Hello`函数可以以结束标签的形式写在`.render`里面,当然可以写成``<hello></hello>`的形式
+`Hello`函数可以以结束标签的形式写在`.render`里面,当然可以写成`<hello></hello>`的形式
 
 后面是逗号,第二个参数是document.getElementById("app"),这个是我们要寻找的`html`文件中id名为app的标签
