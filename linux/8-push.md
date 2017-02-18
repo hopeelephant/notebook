@@ -112,6 +112,20 @@ Please make sure you have the correct access rights
 
 good
 
+有的时候可能执行上面的方法还是没有办法将代码推送上去，这个时候就需要建一个新的分支，命令
+
+```
+git checkout -b gh-pages
+在本地创建一个 `gh-pages` 分支
+```
+然后
+
+```
+git push -u origin gh-pages
+首次执行时，在远端创建 `gh-pages` 分支，并且把本地的代码上传到这个分支之上
+```
+此时代码就可以上传了
+
 ### Github Pages 显示网站
 
 上面的步骤操作完成，就可以在 hopeelephant.github.io 看到网站的首页了。 当然我们这里依然是使用 Github Pages 服务，所以是可以添加 md 文件的， 具体的操作方式参考第一节。
