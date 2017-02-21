@@ -3,7 +3,7 @@ title: 安装react
 layout: default
 ---
 
-# 一些`state`例子
+# 一些state例子
 
 
 ### 标签页切换
