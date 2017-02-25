@@ -126,3 +126,24 @@ export default App;
 首先我们引入`./Card`文件，给他取名叫做`Card`,这样`Card`里面就储存了`./Card`文件中的数据，这样我们就可以通过`Card`结束标签的形式映入
 
 `./Card`里面的内容
+
+
+
+
+# props
+
+- 只能从父组件传给子组件
+
+- 子组件通过{this.props.[name]}获取props值
+
+- 自组件设置默认属性 Btn.defaultProps = {
+  tittle:"defaultProps",
+  bg : "red",
+  padd : 100}
+
+- 子组件设置默认个格式验证 Btn.propTypes = {
+  tittle:React.PropTypes.string,
+  bg:React.PropTypes.string,
+  padd:React.PropTypes.number,
+  addNum:React.PropTypes.func.isRequired  //必须得传一个函数，否则会有警告提醒
+}  

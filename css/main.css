@@ -45,9 +45,15 @@ body{
   float: left;
 }
 .wang .way{
+  padding-top: 144px;
+  padding-bottom: 145px;
   width: 400px;
   float: left;
   margin-left: 100px;
+}
+.wang .way:hover:after{
+
+  
 }
 .way h3{
   font-size: 25px;
