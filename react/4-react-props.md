@@ -145,5 +145,5 @@ export default App;
   tittle:React.PropTypes.string,
   bg:React.PropTypes.string,
   padd:React.PropTypes.number,
-  addNum:React.PropTypes.func.isRequired  //必须得传一个函数，否则会有警告提醒
+  addNum:React.PropTypes.func.isRequired  //必须得穿一个
 }  

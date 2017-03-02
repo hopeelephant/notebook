@@ -66,4 +66,4 @@ componentDidMount
 
 3 销毁
 
-- componentWillUnmount 最直接的好处就是将用完或者不想要的东西删除掉，是直接在ＤＯＭ节点中删除
+- componentWillUnmount 最直接的好处就是将用完或者不想要的东西删除掉，是直接在DOM节点中删除
