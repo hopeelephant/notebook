@@ -1,6 +1,6 @@
 ---
 title: 安装react
-layout: react
+layout: default
 ---
 
 # 安装 react
