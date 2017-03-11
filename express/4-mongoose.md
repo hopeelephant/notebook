@@ -115,13 +115,13 @@ const mongoose = require('mongoose');
 const User = require('./models/user');
 
 
-mongoose.connect('mongodb://localhost:27017/digicity');
+mongoose.connect('mongodb://localhost:27017/express-hello');
 // 执行此行代码之前，要保证 mongodb 数据库已经运行了，而且运行在 27017 端口
 
 var db = mongoose.connection;
 db.on('error', console.log);
 db.once('open', function() {
-   let user = new User({username: 'inCode', email: 'inCode@incode.com'});
+   let user = new User({username: 'inCode', email: 'iwen@iwen.com'});
    user.save(function(err){
      if(err) console.log(err);
    })
