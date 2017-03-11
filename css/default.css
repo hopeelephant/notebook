@@ -60,10 +60,8 @@ code.highlighter-rouge{
   margin-bottom: 15px;
 }
 .container pre{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 1em;
   background: #fbfbfb;
-  padding-left: 20px;
   border-radius: 7px;
   margin-bottom: 30px;
   border: 1px solid #eaeaea;
@@ -71,7 +69,7 @@ code.highlighter-rouge{
 
 }
 blockquote{
-  padding:20px 0 20px 20px;
+  padding: 1em;
   background: #fde7ee;
   border-radius: 7px;
   margin-bottom: 30px;

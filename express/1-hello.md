@@ -6,7 +6,7 @@ layout: default
 
 # Express 框架
 
-### 上面是Express
+### 上手Express
 
 express是一个后端框架，身为一名合格的前端开发人员，掌握一点后端知识是很有必要的，所以就在介绍一下express
 
@@ -16,9 +16,9 @@ Express就是nodejs的一个框架
 
 ### 什么是API
 
-说道Express,不得不说一下`API`,一直以来大家可能对api这个概念比较模糊，我也是比较模糊的，不过不要紧，我们来看看他的英文解释`Application
+说道Express,不得不说一下`API`,一直以来大家可能对api这个概念比较模糊，我也是比较模糊的，不过不要紧，我们来看看他的英文解释`Application`
 
-Program Interface`英文好的人可以简单的概括一下它，它就是个 **接口**，而express就是用来制作后台接口的，或者是用来制作后台api的
+Program Interface英文好的人可以简单的概括一下它，它就是个 **接口**，而express就是用来制作后台接口的，或者是用来制作后台api的
 
 那么这些api制作好了是用来干嘛的呢，那就是来给前台用的，现在对后台和前台是不是又有了更多一点的了解呢
 
@@ -51,7 +51,7 @@ npm install --save express
 
 首先在项目中创建一个`index.js`文件，做如下操作
 
-```js
+```
 const express =  require('express');
 const app = express();
 
@@ -76,7 +76,7 @@ app.listen(3000);
 
 修改成
 
-```js
+```
 app.listen(3000, function(){
   console.log('running on port 3000...');
 });
@@ -101,7 +101,7 @@ app.listen(3000, function(){
 
 我们在上面的 `index.js`中的app.listen中写上
 
-```js
+```
 app.get('/', function(){
   console.log('request come in...');
 })
