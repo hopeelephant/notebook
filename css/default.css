@@ -1,4 +1,4 @@
-/**{
+*{
   margin: 0;
   padding: 0;
 
@@ -91,9 +91,9 @@ footer{
 .footer a{
   color: #f16b99;
   font-size: 0.8em;
-}*/
+}
 
-
+/*上面是自己写的样式*/
 
 container {
   overflow-x: auto;
