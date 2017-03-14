@@ -92,9 +92,31 @@ footer{
   color: #f16b99;
   font-size: 0.8em;
 }
-span.kd{
+
+span.kd,span.kr,span.k{
   color: #c678dd;
 }
-span.o,span.nx{
+span.o,span.nx,span.p{
   color: #56b6c2
+}
+span.s1{
+  color: #98c379;
+}
+span.nb{
+  color: #e5c07b;
+}
+span.nt{
+  color: #e06c75;
+}
+span.s2{
+  color: #98c379;
+}
+span.na{
+  color: #d19a66;
+}
+span.s{
+  color: #98c379;
+}
+span.c1{
+  color: #c678dd;
 }
