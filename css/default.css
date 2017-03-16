@@ -18,11 +18,10 @@ ul{
   line-height: 2.2;
 }
 header{
+  width: 100%;
   background: #f16b99;
 }
 h2{
-  width: 960px;
-  margin: 0 auto;
   line-height: 85px;
   text-align: center;
   color: #fff;
@@ -43,10 +42,10 @@ code.highlighter-rouge{
   background: #e2e2e2;
 }
 .container{
-  width: 760px;
+  width: 80%;
   margin: 0 auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
   margin-bottom: 100px;
   font-family: sans-serif;
   background: #fff;
@@ -55,11 +54,13 @@ code.highlighter-rouge{
   margin-bottom: 20px;
 }
 .container p{
+  overflow: auto;
   line-height: 2.2;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 .container pre{
+  overflow: auto;
   padding: 1em;
   background: #fbfbfb;
   border-radius: 7px;
@@ -69,6 +70,7 @@ code.highlighter-rouge{
 
 }
 blockquote{
+  overflow: auto;
   padding: 1em;
   background: #fde7ee;
   border-radius: 7px;
@@ -76,11 +78,10 @@ blockquote{
   line-height: 2.2;
 }
 footer{
+  width: 100%;
   background: #000;
 }
 .footer{
-  width: 960px;
-  margin: 0 auto;
   text-align: center;
   height: 150px;
   background: #000;

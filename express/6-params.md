@@ -37,4 +37,36 @@ ReactDOM.render(<App/>,document.getElementById('app'));
 
 ```
 
-说一下
+说一下,这里虽说传递的是123456，但是未来还右可能是任意的字符串
+
+来看看后台代码
+
+```
+const express =  require('express');
+const app = express();
+const cors = require('cors');
+app.use(cors());
+
+
+app.get('/users/:id', function(req, res){
+  console.log(req.params.id)
+})
+
+app.listen(3000, function(){
+  console.log('running on port 3000...');
+});
+```
+
+req 是 request 请求的缩写，express 用这个变量来接收前台发过来的请求。 res 是 response 响应的缩写，用来响应前台发过来的请求，实际作用就是往前台发送数据。
+
+前台的请求是：
+
+>GET /users/123456
+
+可以写成
+
+>app.get('/users/123456'...)
+
+但是这样前台能传递的字符串就限制死了。所以最好就是使用 express 的 params （param 是英文参数的简写） 机制来进行处理，也就是写成如上的
+
+>app.get('/users/:id')
