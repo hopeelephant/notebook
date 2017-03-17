@@ -2,6 +2,8 @@
 title: 查询字符串
 ---
 
+# 查询字符串
+
 开发者日常要解决的问题之一，就是如何把一定的数据传递给服务器端。方法列举出下面几种
 - 最简单，最常用的，就是我们本节要介绍的通过“查询字符串”来传递数据
 - 通过 html 表单穿数据
@@ -50,10 +52,22 @@ name: happypeter
 
 传多组参数，用&隔开，比如
 
->http://haoqicat.com/?name=happypeter&email=peter@peter.com
+>http://haoqicat.com/?name=hopeelephant&email=hopeelephant@hopeelephant.com
 
 Chrome 开发者工具右下角，此时就会看到两个参数了。
 
 也可以这样来写
 
 > ?order=desc&shoe[color]=blue&shoe[type]=converse
+
+服务器端如果是 express ，就可以很方便的用 req.query 来拿到传递过来的参数。
+
+如果我想添加一个备用邮箱，可以使用 + 来进行连接
+
+>?name=hope&email=hope@gmail.com+elephant@elephant.com
+
+实例
+
+>http://stackoverflow.com/search?q=http
+
+总结，虽说查询字符串的方法比较简单，但是功能有限，在链接中明文传递也是不安全的，所以只能在一些简单的场合使用
