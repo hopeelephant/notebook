@@ -112,3 +112,56 @@ export function fetchComments() {
 代码:[use thunk](https://coding.net/u/hopeelephant/p/redux-num/git/commits/master/);
 
 上面代码中也用了 react-redux 的接口，例如 Provider/connect ，都是迫不得已加上的，因为不加就报错了。
+
+到目前，我们只是实现了对于 action 创建器 的调用，具体的 action 和 reducer 还都没写呢。
+
+### axios 发请求
+
+到 acitons/comments.js 中：
+
+```js
+import axios from 'axios';
+export function fetchComments() {
+  return dispatch => {
+    axios.get('http://redux-hello.haoduoshipin.com/comments').then( res =>
+      console.log(res.data.comments)
+    )
+  }
+}
+```
+
+这样就可以在后台打印出总的评论数了
+
+发起 action 触发 reducer
+
+接下来数据到手了，可以发 action 了，具体就是使用 dispatch
+
+到 acitons/comment.js 中添加
+
+>dispatch({type: 'LOAD_COMMENTS', comments: res.data.comments});
+
+这样就可以发出一个 action 了。下一步马上看 reducer 中能不能收到数据。
+
+store.js 中，commentReducer 写成下面这样：
+
+```js
+function commentReducer(state = [], action) {
+  switch(action.type){
+    case 'LOAD_COMMENTS':
+      console.log('commentReducer', action.comments);
+      return action.comments;
+    default:
+      return state;
+  }
+}
+```
+
+现在就可以打印出总的评论数了，但是 App.js 还是用的 getState() 这个还是要换成
+
+>this.props.comments
+
+代码
+
+[reducer code]
+
+- (https://coding.net/u/hopeelephant/p/redux-num/git/commits/master/)
