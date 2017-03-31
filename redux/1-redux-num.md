@@ -67,10 +67,8 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 ### 发起 API 请求
 
-现在 store 中的数据是 [] ，现在我们肯定是要修改这个状态值了，那么要涉及到的是：
-
+现在 store 中的数据是 [] ，现在我们肯定是要修改这个状态值了，那么要涉及到的是:
 - 先发action
-
 - 然后触发reducer
 
 退一步思考，发出这里的这个 action 是没有必要让用户参与进来点按钮，那么如何触发呢？就用生命周期函数就行了。
@@ -161,7 +159,4 @@ function commentReducer(state = [], action) {
 >this.props.comments
 
 代码
-
-[reducer code]
-
-- (https://coding.net/u/hopeelephant/p/redux-num/git/commits/master/)
+- [reducer code](https://coding.net/u/hopeelephant/p/redux-num/git/commits/master/)
