@@ -1,5 +1,5 @@
 ---
-title: 安装react-nati
+title: 安装react-native
 layout: default
 ---
 
